@@ -85,11 +85,11 @@ sub addSongsToPlaylist {
 
 sub listSongs {
     my $self = shift;
-    $self->setCurrent($self->head);
     if ( $self->count == 0 ) {    
         print "Playlist is empty.\n";
         return;
     }
+    $self->setCurrent($self->head);
     $self->printSongList;
     while ( defined($self->current->next) ) {
         if ($self->current->next eq $self->head) {
