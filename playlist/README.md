@@ -2,8 +2,15 @@
 
 Perl OOP to create a circular doubly linked list using an example of a playlist of songs
 
-# To do:
+To do:
+```t
 Create a shuffle method
+```
+
+Usage
+```t
+perl playlist.pl
+```
 
 Output
 ```t
