@@ -7,12 +7,12 @@ To do:
 Create a shuffle method
 ```
 
-Usage
+Usage:
 ```t
 perl playlist.pl
 ```
 
-Output
+Output:
 ```t
 Creating playlist: My playlist
 Playlist is empty.
