@@ -1,6 +1,9 @@
 # Playlist
 
-Perl OOP to create a circular doubly linked list using an example of a playlist of songs
+Perl OOP to create a circular doubly linked list.  Simulating a song playlist.  First time coding up a linked list, so I think this is correct.
+
+![image](https://github.com/rerichardjr/perl/assets/116912828/15f20460-0b62-4996-b617-0c8384f8dfc5)
+
 
 To do:
 ```t
