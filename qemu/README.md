@@ -15,7 +15,7 @@ qemu-system-x86_64 -qmp tcp:192.168.1.65:4567,server,wait=off \
 	-m 4G -cpu host -vga virtio -display sdl,gl=on
 ```
 
-Connect to lab server hosting QMP using PuTTY and execute `qmp_capabilities` and `query-status`
+Verify by connecting to lab server hosting QMP using PuTTY and execute `qmp_capabilities` and `query-status`
 ```t
 {"execute": "qmp_capabilities" }
 {"return": {}}
