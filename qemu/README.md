@@ -8,7 +8,7 @@ qemu-system-x86_64 -enable-kvm -cdrom ~/Downloads/Rocky-9.3-x86_64-dvd.iso \
 	-m 4G -cpu host -vga virtio -display sdl,gl=on
 ```
 
-Restart Rocky VM with QMP on TCP port 4444
+Restart Rocky VM with QMP on TCP port 4567
 ```t
 qemu-system-x86_64 -qmp tcp:192.168.1.65:4567,server,wait=off \
 	-enable-kvm -boot menu=on -drive file=rocky.img \
